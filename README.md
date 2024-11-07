@@ -155,7 +155,7 @@ The following assumptions and constraints define the operational scope, ensuring
 
 ---
 
-## Section 4: Customer Personas & Journey Mapping
+## 4. Customer Personas & Journey Mapping
 
 ### 4.1 User Personas Overview
 
@@ -234,7 +234,7 @@ Detailed journey maps for each persona capture touchpoints, potential pain point
 
 ---
 
-## 5: Product Governance & Oversight
+## 5. Product Governance & Oversight
 
 ### Overview
 
@@ -303,7 +303,7 @@ The **Quarterly Governance Feedback Session** allows each team to share insights
 
 ---
 
-## 6: Data Standards & Integrity Protocols
+## 6. Data Standards & Integrity Protocols
 
 ### Overview
 
@@ -403,13 +403,13 @@ Documentation supports transparency, compliance, and operational continuity:
 
 ---
 
-## Section 4: Customer-Centric Experience Design
+## 7. Customer-Centric Experience Design
 
 ### Overview
 
 Designed with user-centricity in mind, the **Dynamic Fare Adjustment Engine** balances optimized fare adjustments with transparency and user-friendly features. This section outlines the core design principles, customer journey mapping, and feedback mechanisms to create a consistent, trustworthy fare adjustment experience.
 
-### 4.1 Key Design Principles
+### 7.1 Key Design Principles
 
 The design prioritizes customer experience by focusing on:
 
@@ -419,7 +419,7 @@ The design prioritizes customer experience by focusing on:
 4. **Responsiveness**: Continuously integrates feedback to evolve with customer needs.
 5. **Accessibility**: Ensures an inclusive experience, meeting accessibility standards.
 
-### 4.2 Customer-Centric Features
+### 7.2 Customer-Centric Features
 
 These features enhance user engagement and satisfaction:
 
@@ -448,7 +448,7 @@ These features enhance user engagement and satisfaction:
    - **Interface**: Displayed in booking flow.
    - **Benefit**: Reinforces loyalty and enhances brand connection.
 
-### 4.3 Customer Journey Mapping & Touchpoints
+### 7.3 Customer Journey Mapping & Touchpoints
 
 Key customer interactions are mapped to streamline the fare adjustment experience:
 
@@ -467,7 +467,7 @@ Key customer interactions are mapped to streamline the fare adjustment experienc
    - **Touchpoints**: Surveys, follow-up emails.
    - **Metrics**: Satisfaction scores and feedback volume.
 
-### 4.4 Feedback Collection & Continuous Improvement
+### 7.4 Feedback Collection & Continuous Improvement
 
 Feedback collection supports the Engine’s alignment with evolving user needs:
 
@@ -491,7 +491,7 @@ Feedback collection supports the Engine’s alignment with evolving user needs:
  - **Purpose**: Synthesizes feedback for team insights.
    - **Frequency**: Concludes each PI cycle to inform data-driven adjustments.
 
-### 4.5 Communication & Education Strategy
+### 7.5 Communication & Education Strategy
 
 Clear, proactive communication builds user confidence in dynamic pricing:
 
@@ -511,7 +511,7 @@ Clear, proactive communication builds user confidence in dynamic pricing:
    - **Purpose**: Reinforce commitment to ethical, fair pricing.
    - **Channels**: In-app notifications, email, and social media.
 
-### 4.6 Continuous Performance Monitoring
+### 7.6 Continuous Performance Monitoring
 
 Continuous KPI tracking sustains quality in user experience:
 
@@ -527,7 +527,7 @@ Continuous KPI tracking sustains quality in user experience:
 3. **A/B Testing**:
    - **Process**: Real-time A/B tests to refine features.
 
-### 4.7 Personalization & Customization
+### 7.7 Personalization & Customization
 
 Personalization improves relevance and engagement:
 
@@ -535,7 +535,7 @@ Personalization improves relevance and engagement:
 2. **Customizable Alerts**: User-defined tracking for specific routes or times.
 3. **Loyalty Discounts**: Exclusive discounts for frequent travelers.
 
-### 4.8 Crisis Communication Plan
+### 7.8 Crisis Communication Plan
 
 Preparedness ensures smooth responses to fare-related issues:
 
@@ -543,7 +543,7 @@ Preparedness ensures smooth responses to fare-related issues:
 2. **Escalation Protocols**: Clear paths for urgent escalations.
 3. **Updated FAQs**: Streamlined responses for common fare concerns.
 
-### 4.9 Real-Time Dashboard Access
+### 7.9 Real-Time Dashboard Access
 
 A live dashboard enables agile responses to user feedback and behavior:
 
@@ -552,13 +552,13 @@ A live dashboard enables agile responses to user feedback and behavior:
 
 ---
 
-## Section 5: Technical Infrastructure & Engineering Standards
+## 8. Technical Infrastructure & Engineering Standards
 
 ### Overview
 
 The **Dynamic Fare Adjustment Engine** requires a scalable, secure, and high-performance infrastructure to support real-time fare adjustments. This section defines architecture, scalability standards, security protocols, and monitoring practices to create a resilient system that balances reliability, data integrity, compliance, and continuous scalability. This framework aligns with Agile and SAFe principles, fostering iterative improvement and cross-functional collaboration.
 
-### 5.1 System Architecture
+### 8.1 System Architecture
 
 The engine is designed on a modular, fault-tolerant microservices architecture to enable flexible scaling, independent updates, and high fault tolerance.
 
@@ -571,7 +571,7 @@ The engine is designed on a modular, fault-tolerant microservices architecture t
    - **Automated Health Checks**: Frequent checks of integration points with external booking systems, weather APIs, and competitor data sources, triggering backup data if any service fails.
    - **Circuit Breakers and Fallbacks**: In the event of third-party API failures, circuit breakers activate cached data, minimizing disruptions.
 
-### 5.2 Scalability & Performance Standards
+### 8.2 Scalability & Performance Standards
 
 The architecture is optimized for both horizontal scalability and low-latency performance to handle peak loads seamlessly.
 
@@ -581,7 +581,7 @@ The architecture is optimized for both horizontal scalability and low-latency pe
    - **Failover Testing Protocol**: Quarterly simulations verify that failover mechanisms handle service outages effectively.
    - **Traffic Management**: Rate-limiting controls prevent overload and ensure prioritized service during peak usage.
 
-### 5.3 Security & Compliance Protocols
+### 8.3 Security & Compliance Protocols
 
 Stringent security and compliance protocols are essential to protect user data, ensuring adherence to international regulations.
 
@@ -594,7 +594,7 @@ Stringent security and compliance protocols are essential to protect user data, 
    - **Anonymization & Pseudonymization**: Ensures that all personally identifiable information (PII) complies with GDPR, CCPA, and PDPA regulations.
    - **Third-Party Data Agreements**: Compliance agreements are required from all third-party providers to maintain privacy standards.
 
-### 5.4 Monitoring, Observability & Alerting Systems
+### 8.4 Monitoring, Observability & Alerting Systems
 
 The system’s health is continuously monitored through real-time dashboards, with automated alerts and structured incident management.
 
@@ -605,7 +605,7 @@ The system’s health is continuously monitored through real-time dashboards, wi
    - **Escalation Paths**: Tiered alerts notify appropriate teams of performance issues, with predefined response protocols for critical incidents.
    - **Incident Review and Reporting**: Weekly and quarterly reports on system performance and issue resolutions, reviewed with Product and Engineering teams for continuous improvement.
 
-### 5.5 Engineering Standards & Best Practices
+### 8.5 Engineering Standards & Best Practices
 
 Engineering standards are enforced to ensure code quality, system reliability, and efficient collaboration across teams.
 
@@ -619,7 +619,7 @@ Engineering standards are enforced to ensure code quality, system reliability, a
    - **API Documentation**: Maintained for each service to ensure comprehensive understanding across teams.
    - **Change Logs**: Detailed logs for every update, including change rationale, impacts, and compliance notes, ensuring transparency and traceability.
 
-### 5.6 Data Backup & Disaster Recovery
+### 8.6 Data Backup & Disaster Recovery
 
 Disaster recovery plans ensure data safety and quick recovery in the event of system failure.
 
@@ -630,7 +630,7 @@ Disaster recovery plans ensure data safety and quick recovery in the event of sy
 - **Testing**:
    - **Quarterly Disaster Recovery Drills**: Simulations verify readiness and response efficiency, ensuring that recovery protocols are effective.
 
-### 5.7 Continuous Improvement & Technical Debt Management
+### 8.7 Continuous Improvement & Technical Debt Management
 
 To maintain system quality and agility, a structured approach to managing technical debt and performance optimization is essential.
 
@@ -638,14 +638,14 @@ To maintain system quality and agility, a structured approach to managing techni
 - **Monthly Performance Optimization**: Regular optimization sessions to address latency issues, scalability improvements, and code refactoring.
 - **Cross-Functional Retrospectives**: Quarterly review sessions with Engineering, Product, and Compliance teams, focused on identifying areas for collaborative optimization.
 
-### 5.8 Infrastructure Cost Optimization
+### 8.8 Infrastructure Cost Optimization
 
 Optimizing infrastructure costs is essential for balancing system performance and cost-efficiency.
 
 - **Autoscaling & Right-Sizing**: Configures autoscaling to adjust resource allocation during low-demand periods, minimizing unnecessary costs.
 - **Capacity Reservations**: Reserves cloud capacity in advance for anticipated peak periods, ensuring cost-effective scalability during high-demand events.
 
-### 5.9 Scalability Roadmap
+### 8.9 Scalability Roadmap
 
 A phased scalability roadmap enables gradual enhancements, supporting evolving business needs and market expansion.
 
