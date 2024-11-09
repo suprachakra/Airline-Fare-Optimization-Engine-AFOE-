@@ -1545,13 +1545,35 @@ Defined KPIs and metrics enable proactive monitoring, driving project alignment 
 
 ---
 
-### **Summary of Governance, Reporting, and Accountability Framework**
 
-The **Governance, Reporting, and Accountability Framework** provides structured oversight, transparent reporting, and robust compliance measures. Enhanced with cross-functional alignment, real-time monitoring, and rapid-response protocols, this framework ensures that the Dynamic Fare Adjustment Engine aligns with strategic goals and regulatory requirements while remaining resilient and adaptable. By prioritizing transparency, user trust, and continuous improvement, this governance structure supports long-term project success.
+### 11.8 Formal Sign-Off Process
+
+The Formal Sign-Off Process ensures phase-by-phase validation, approval, and accountability from relevant stakeholders across Product, Compliance, Engineering, and Executive Leadership. This process confirms that all deliverables meet **pre-defined quality, performance, and compliance standards** before advancing to the next project phase.
+
+**Process Flow:**
+
+1. **Phase Completion Review**:
+   - Conduct a structured review of all deliverables and KPIs for the phase.
+   - Stakeholders from Product, Engineering, Compliance, and Customer Experience provide input on completion status.
+
+2. **Approval and Documentation**:
+   - Key stakeholders (Product Manager, Engineering Lead, Compliance Officer, and Executive Sponsor) provide written sign-off.
+   - Documented in a shared repository, accessible to the entire team for transparency.
+
+3. **Escalation Pathway**:
+   - Any outstanding issues or incomplete deliverables are escalated to the Executive Steering Committee.
+   - Resolution timelines and mitigation plans are established before proceeding.
+
+4. **Phase Transition**:
+   - After sign-off, a formal summary is distributed to all stakeholders, officially transitioning the project to the next phase.
+
+**Success Metric**:
+   - **100% stakeholder approval** for each phase sign-off.
+   - Timely documentation and resolution of escalated issues.
 
 ---
 
-  # 12. Dynamic Fare Adjustment Engine Functional Requirements
+  # 12. Functional Requirements
   
   ---
   
