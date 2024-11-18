@@ -10,7 +10,7 @@ An advanced Dynamic Fare Adjustment Engine leveraging demand, route popularity, 
 
 ## 1. Executive Summary
 - [Overview](#overview)
-- [Value Proposition](#value-proposition)
+- [Business objectives](#v11-business-objectives)
   - For the Business
   - For Customers
 - [Objectives](#objectives)
