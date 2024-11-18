@@ -8,7 +8,7 @@ An advanced Dynamic Fare Adjustment Engine leveraging demand, route popularity, 
 
 ---
 
-### 1. Executive Summary
+1. Executive Summary
 - [Overview](#overview)
 - [1.1 Business Objectives](#11-business-objectives)
 - [1.2 Target Audience](#12-target-audience)
