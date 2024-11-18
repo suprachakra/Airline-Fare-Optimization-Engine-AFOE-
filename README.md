@@ -131,7 +131,40 @@ An advanced Dynamic Fare Adjustment Engine leveraging demand, route popularity, 
     - [Scenario-Based Examples](#scenario-based-examples)
     - [Appendix](#1210-appendix)
 
+13. Dynamic Fare Adjustment Engine Non-Functional Requirements (NFRs)
+    - [Performance Requirements](#performance-requirements)
+    - [Scalability Requirements](#scalability-requirements)
+    - [Security Requirements](#security-requirements)
+    - [Compliance Requirements](#compliance-requirements)
+    - [Reliability & Availability Requirements](#reliability--availability-requirements)
+    - [Maintainability & Supportability Requirements](#maintainability--supportability-requirements)
+    - [Monitoring & Reporting Framework](#monitoring--reporting-framework)
+    - [Scenario-Based Examples](#scenario-based-examples)
+    - [Appendix](#appendix)
+      - [Key Performance Indicators (KPIs)](#key-performance-indicators-kpis)
+      - [Glossary](#glossary)
 
+14. Dynamic Fare Adjustment Engine: Design System & UI Specifications
+    - [Design Principles](#design-principles)
+    - [UI Components](#ui-components)
+    - [UI States and User Flows](#ui-states-and-user-flows)
+    - [Accessibility Guidelines](#accessibility-guidelines)
+    - [Visual Style Guide](#visual-style-guide)
+    - [Component Behavior & Animation](#component-behavior--animation)
+    - [Success Metrics for Design Effectiveness](#success-metrics-for-design-effectiveness)
+    - [Scenario-Based Testing & Fallback Solutions](#scenario-based-testing--fallback-solutions)
+    - [Appendix](#appendix)
+
+15. Product Backlog Management Framework
+    - [Key Functional Requirements (FRs)](#key-functional-requirements-frs)
+      - [Epic 1: Real-Time Data Collection](#epic-1-real-time-data-collection)
+      - [Epic 2: Dynamic Fare Calculation](#epic-2-dynamic-fare-calculation)
+      - [Epic 3: User Transparency & Communication](#epic-3-user-transparency--communication)
+      - [Epic 4: Model Training & Optimization](#epic-4-model-training--optimization)
+      - [Epic 5: System Integration & Compatibility](#epic-5-system-integration--compatibility)
+      - [Epic 6: Compliance & Data Privacy](#epic-6-compliance--data-privacy)
+      - [Epic 7: Monitoring & Reporting Framework](#epic-7-monitoring--reporting-framework)
+      - [Epic 8: Maintainability & Supportability](#epic-8-maintainability--supportability)
 ---
 
 # Dynamic Fare Adjustment Engine Documentation
