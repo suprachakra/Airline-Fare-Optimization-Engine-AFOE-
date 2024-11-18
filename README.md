@@ -151,6 +151,9 @@ An advanced Dynamic Fare Adjustment Engine leveraging demand, route popularity, 
 - [7.8 Crisis Communication Plan](#78-crisis-communication-plan)
 - [7.9 Real-Time Dashboard Access](#79-real-time-dashboard-access)
 
+---
+
+
 #### **8. Technical Infrastructure & Engineering Standards**
 - [8.1 System Architecture](#81-system-architecture)
   - [Microservices Architecture](#microservices-architecture)
@@ -168,6 +171,8 @@ An advanced Dynamic Fare Adjustment Engine leveraging demand, route popularity, 
 - [8.11 SAFe Agile Ceremonies & Standards](#811-safe-agile-ceremonies--standards)
 - [8.12 Compliance & Adaptability Checks](#812-compliance--adaptability-checks)
 - [8.13 Quarterly Review & Iteration Notes](#813-quarterly-review--iteration-notes)
+
+---
 
 #### **9. Machine Learning & Algorithmic Framework**
 - [9.1 Model Objectives & Requirements](#91-model-objectives--requirements)
@@ -202,7 +207,7 @@ An advanced Dynamic Fare Adjustment Engine leveraging demand, route popularity, 
   - [9.10.1 Scenario Testing for Extreme Cases](#9101-scenario-testing-for-extreme-cases)
   - [9.10.2 Adaptability to External Shifts](#9102-adaptability-to-external-shifts)
 
-### Table of Contents
+---
 
 #### **10. Continuous Improvement & Feedback Loops**
 - [10.0 Overview](#100-overview)
