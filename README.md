@@ -25,8 +25,13 @@ An advanced Dynamic Fare Adjustment Engine leveraging demand, route popularity, 
 
 [3. Assumptions and Constraints](#3-assumptions-and-constraints)
 
-## 2.Definitions & Acronyms
- - [2. Definitions & Acronyms](#2-definitions--acronyms)
+[4. Customer Personas & Journey Mapping](#4-customer-personas--journey-mapping)
+
+[5. Product Governance & Oversight](#5-product-governance--oversight)
+
+[6.Data Privacy, Security, & Compliance Framework](#6data-privacy-security--compliance-framework)
+
+[]()
 
 ## 2. Strategic Product Vision & Goals
 - [Overview](#overview-1)
