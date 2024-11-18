@@ -84,29 +84,28 @@ An advanced Dynamic Fare Adjustment Engine leveraging demand, route popularity, 
 
 ---
 
-## 5. Customer Personas & Journey Mapping
-- [User Personas Overview](#user-personas-overview)
-- [Use Cases](#use-cases)
-- [Journey Mapping](#journey-mapping)
+## 4. Customer Personas & Journey Mapping
+- [4.1 User Personas Overview](#41-user-personas-overview)
+- [4.2 Use Cases](#42-use-cases)
+- [4.3 Journey Mapping](#43-journey-mapping)
 
 ---
 
-## 6. Product Governance & Oversight
+## 5. Product Governance & Oversight
 - [Overview](#overview-2)
-- [Roles & Responsibilities](#roles--responsibilities)
+- [5.1 Roles & Responsibilities](#51-roles--responsibilities)
   - Steering Committee
   - Product Management Team
   - Engineering & Data Science Teams
   - Compliance & Legal Team
   - Customer Experience Team
-- [Governance Processes](#governance-processes)
-- [Governance Metrics Dashboard](#governance-metrics-dashboard)
-- [Continuous Improvement Mechanism](#continuous-improvement-mechanism)
+- [5.2 Governance Processes](#52-governance-processes)
+- [5.3 Governance Metrics Dashboard](#53-governance-metrics-dashboard)
+- [5.4 Continuous Improvement Mechanism](#54-continuous-improvement-mechanism)
 
 ---
 
-## 7. Data Privacy, Security & Compliance Framework
-- [Executive Summary](#executive-summary)
+## 6. Data Privacy, Security & Compliance Framework
 - [Data Standards & Integrity Protocols](#data-standards--integrity-protocols)
   - Data Sources & Ownership
   - Data Quality Controls
@@ -638,44 +637,44 @@ Data quality is ensured through rigorous validation, transformation, and monitor
 
 ---
 
-## **6.3 Data Privacy Protocols**
+## **Data Privacy Protocols**
 
-### **6.3.1 User Consent & Data Minimization**
+### **1. User Consent & Data Minimization**
    - **Consent Management:** Explicit user consent for data collection, with options to adjust preferences.
    - **Data Minimization:** Retain essential data for 12 months, delete non-essential data after six months.
    - **Privacy Dashboard:** Allows users to manage preferences and data deletion.
 
-### **6.3.2 Anonymization & Pseudonymization**
+### **2. Anonymization & Pseudonymization**
    - **PII Anonymization:** Reduces risk of exposure by anonymizing data.
    - **Pseudonymized Training Data:** Protects identities without compromising model performance.
    - **Re-Identification Audits:** Biannual reviews to assess risks.
 
-### **6.3.3 Data Retention & Deletion**
+### **3. Data Retention & Deletion**
    - **Retention Policy:** Essential data retained for up to 12 months.
    - **User Right to Erasure:** Ensures compliance with GDPR and similar regulations.
 
 ---
 
-## **6.4 Data Security Standards**
+## **Data Security Standards**
 
-### **6.4.1 Access Control**
+### **1. Access Control**
    - **Role-Based Access Control (RBAC) & Multi-Factor Authentication (MFA):** Enforces least-privilege access.
    - **Contextual Restrictions:** Time- and location-based controls for sensitive data.
    - **Quarterly Access Reviews:** Ensures permissions align with responsibilities.
 
-### **6.4.2 Encryption Standards**
+### **2. Encryption Standards**
    - **Data at Rest:** Secured with AES-256 encryption.
    - **End-to-End Encryption (E2EE):** TLS 1.2+ for all data in transit.
 
-### **6.4.3 Intrusion Detection & Prevention**
+### **3. Intrusion Detection & Prevention**
    - **IDS & SIEM:** Continuous monitoring and logging of traffic patterns to detect threats.
    - **Quarterly Security Drills:** Tests incident response efficiency.
 
 ---
 
-## **6.5 Compliance & Regulatory Alignment**
+## **Compliance & Regulatory Alignment**
 
-### **6.5.1 Global Privacy Compliance**
+### **1. Global Privacy Compliance**
 Compliance with GDPR, CCPA, PDPA, and UAE data laws ensures user privacy and regional adherence.
 
 | **Regulation**                   | **Scope**                                           | **Key Requirements**                        | **Compliance Process**                 |
@@ -685,29 +684,29 @@ Compliance with GDPR, CCPA, PDPA, and UAE data laws ensures user privacy and reg
 | **PDPA (Singapore)**             | Data handling for Singapore residents.              | Purpose limitation, consent, data accuracy | Biannual PDPA audits, user consent updates |
 | **UAE Federal Decree-Law No. 45**| UAE data protection for all residents.              | Data residency, breach notification        | Localized data storage, 72-hour incident response |
 
-### **6.5.2 Compliance Audits**
+### **2. Compliance Audits**
    - **Quarterly Audits:** Reviews adherence to data handling and compliance policies.
    - **Corrective Action:** Documented findings with follow-up actions.
 
 ---
 
-## **6.6. Continuous Monitoring & Improvement**
+## **Continuous Monitoring & Improvement**
 
-### **6.6.1 Real-Time Feedback & Anomaly Logging**
+### **1. Real-Time Feedback & Anomaly Logging**
    - **Feedback Integration:** Sentiment analysis to direct product updates.
    - **Anomaly Logging:** Flags irregular data patterns for review.
 
-### **6.6.2 Data Quality & Lineage Audits**
+### **2. Data Quality & Lineage Audits**
    - **Quarterly Data Quality Reviews:** Ensures accuracy and relevance.
    - **Data Lineage Tracking:** Logs data paths from collection to usage.
 
-### **6.6.3 Bias Audits & Ethics Oversight**
+### **3. Bias Audits & Ethics Oversight**
    - **Quarterly Bias Audits:** Ensures fair and equitable pricing outcomes.
    - **Ethics Review Board:** Reviews model impacts quarterly.
 
 ---
 
-## **6.7. Documentation Standards**
+## **Documentation Standards**
 
 | **Documentation Type**             | **Purpose**                                     | **Frequency**               |
 |------------------------------------|-------------------------------------------------|-----------------------------|
