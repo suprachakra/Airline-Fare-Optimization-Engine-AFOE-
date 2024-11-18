@@ -66,20 +66,11 @@ An advanced Dynamic Fare Adjustment Engine leveraging demand, route popularity, 
 ---
 
 ## 3. Definitions & Acronyms
-- [Glossary of Terms](#glossary-of-terms)
-  - Dynamic Pricing
-  - RMS (Revenue Management System)
-  - MAE (Mean Absolute Error)
-  - GDPR, CCPA, PDPA, UAE Data Protection Law
-  - ETL
-  - Explainable AI
-  - PIA (Privacy Impact Assessment)
-  - SLAs (Service Level Agreements)
-  - Load Factor
-
+- [2. Definitions & Acronyms](#2-definitions--acronyms)
 ---
 
 ## 4. Assumptions and Constraints
+-[3. Assumptions and Constraints](#3-assumptions-and-constraints)
 - [Assumptions](#assumptions)
   - Real-Time Data Accessibility
   - Scalable Infrastructure
