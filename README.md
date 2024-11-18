@@ -10,7 +10,17 @@ An advanced Dynamic Fare Adjustment Engine leveraging demand, route popularity, 
 
 ## 1. Executive Summary
 - [Overview](#overview)
-- [Business objectives](#v11-business-objectives)
+- [1.1 Business Objectives](#11-business-objectives)
+- [1.2 Target Audience](#12-target-audience)
+- [1.3 Success Metrics](#13-success-metrics)
+- [1.4 Customer Journey Mapping](#14-customer-journey-mapping)
+- [1.5 Long-Term Vision and Roadmap](#15-long-term-vision-and-roadmap)
+- [1.6 Strategic Alignment with Broader Business Goals](#16-strategic-alignment-with-broader-business-goals)
+- [1.7 Industry-Standard Tools & Customization](#17-industry-standard-tools--customization)
+- [1.8 Advanced Machine Learning & AI Models](#18-advanced-machine-learning--ai-models)
+- [1.9 Customer-Centric Transparency and User Control](#19-customer-centric-transparency-and-user-control)
+- [1.10 Automated Compliance & Ethical AI Practices](#110-automated-compliance--ethical-ai-practices)
+- 
   - For the Business
   - For Customers
 - [Objectives](#objectives)
