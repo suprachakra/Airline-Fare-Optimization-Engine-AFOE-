@@ -980,42 +980,42 @@ The **Machine Learning & Algorithmic Framework** is the core architecture that s
 
 ---
 
-### 3. Model Selection & Training
+### Model Selection & Training
 
-#### 3.1 Model Types and Selection
+#### 1 Model Types and Selection
    - **Demand Prediction**: Time Series (e.g., ARIMA, LSTM).
    - **Price Elasticity**: Regression (e.g., Elastic Net).
    - **Competitor Pricing**: Web scraping, NLP for real-time data processing.
    - **Dynamic Pricing**: Ensemble models combining time series, regression, and rule-based methods.
    - **Mitigations**: A/B testing, strict version control, and rollback protocols.
 
-#### 3.2 Training Process
+#### 2 Training Process
    - **Weekly Retraining Cycles**: Ensures models reflect recent data changes.
    - **Hyperparameter Tuning**: Bayesian optimization for tuning efficiency.
    - **Distributed Training**: Leverages cloud resources for faster training cycles.
 
-#### 3.3 Evaluation Metrics
+#### 3 Evaluation Metrics
    - **Accuracy Metrics**: MAE, RMSE.
    - **Fairness Metrics**: Disparate impact analysis.
    - **Mitigations**: Real-time alerts for metric deviations.
 
 ---
 
-### 4. Model Deployment & Scalability
+### Model Deployment & Scalability
 
-#### 4.1 Deployment Strategy
+#### 1 Deployment Strategy
    - **Staging and Production Environments**: CI/CD pipelines automate deployment with rollback options.
    - **A/B Testing**: Controls deployment with segmented user tests.
    - **Mitigations**: Dual deployment environments for safety.
 
-#### 4.2 Scalability
+#### 2 Scalability
    - **Distributed Edge Processing**: Reduces latency by placing nodes near users.
    - **Load Management**: Rate-limiting prioritizes high-value transactions.
    - **Mitigations**: Dynamic scaling and load balancing for peak demand.
 
 ---
 
-### 5. Monitoring, Maintenance & Continuous Improvement
+### Monitoring, Maintenance & Continuous Improvement
 
 #### 5.1 Real-Time Drift Detection
    - **Feature Drift Monitoring**: Kolmogorov-Smirnov tests for data distribution changes.
@@ -1034,73 +1034,73 @@ The **Machine Learning & Algorithmic Framework** is the core architecture that s
 
 ---
 
-### 6. Ethical Considerations & Compliance
+### Ethical Considerations & Compliance
 
-#### 6.1 Fairness and Bias Detection
+#### 1. Fairness and Bias Detection
    - **Routine Fairness Audits**: Quarterly demographic impact analysis.
    - **Bias Mitigation**: Constraints on demographic segments to prevent price disparity.
    - **Outcome**: Maintains trust and transparency.
 
-#### 6.2 Explainable AI and Transparency
+#### 2. Explainable AI and Transparency
    - **SHAP Values for Explanation**: Transparency in fare adjustments.
    - **User-Controlled Transparency Options**: Basic vs. detailed fare explanations for users.
    - **Mitigations**: Quarterly user feedback reviews on transparency.
 
-#### 6.3 Compliance with Data Privacy Regulations
+#### 3. Compliance with Data Privacy Regulations
    - **GDPR, CCPA, PDPA Compliance**: Anonymization, audit logs, and data minimization.
    - **Mitigations**: Automated compliance checks and third-party audits.
 
 ---
 
-### 7. Documentation & Governance
+### Documentation & Governance
 
-#### 7.1 Model Documentation Standards
+#### 1 Model Documentation Standards
    - **Comprehensive Documentation**: Includes model architecture, features, and interpretability.
    - **Audit Trails**: Tracks key decision paths for regulatory purposes.
    - **Mitigations**: Regular documentation updates.
 
-#### 7.2 Governance & Cross-Functional Oversight
+#### 2 Governance & Cross-Functional Oversight
    - **Governance Committee**: Product, Engineering, Compliance, and Data Science.
    - **Lifecycle Management**: From development to deprecation with quarterly reviews.
    - **Outcome**: Ensures adherence to strategic goals and compliance.
 
 ---
 
-### 8. Optimization, Adaptability, and Innovation
+### Optimization, Adaptability, and Innovation
 
-#### 8.1 Optimization Techniques
+#### 1. Optimization Techniques
    - **Hyperparameter Tuning**: Regular tuning with Bayesian optimization.
    - **Model Compression**: Quantization and pruning for optimized performance.
    - **Outcome**: Efficient, scalable models.
 
-#### 8.2 Real-Time Adaptation
+#### 2. Real-Time Adaptation
    - **Incremental Training**: Mini-batch updates for dynamic learning.
    - **Feedback Loops**: Continual user and operational feedback.
    - **Outcome**: Maintains relevancy and responsiveness.
 
 ---
 
-### 9. Customer Communication & Transparency
+### Customer Communication & Transparency
 
-#### 9.1 Predefined Communication Templates
+#### 1. Predefined Communication Templates
    - **Clear Fare Explanations**: Templates for fare adjustments.
    - **Customizable Notification Settings**: Users can adjust transparency levels.
    - **Mitigations**: Focus groups to ensure clarity.
 
-#### 9.2 Regular Stakeholder Reporting
+#### 2. Regular Stakeholder Reporting
    - **Explainability Reports**: Quarterly updates for internal stakeholders.
    - **Mitigations**: Transparency audits to align with user expectations.
 
 ---
 
-### 10. Simulation and Scenario Testing
+### Simulation and Scenario Testing
 
-#### 10.1 Scenario Testing for Extreme Cases
+#### 1. Scenario Testing for Extreme Cases
    - **Demand Spikes**: Tests for high-demand and event-driven spikes.
    - **Behavior Shifts**: Simulates changes in booking behavior.
    - **Mitigations**: Regular stress tests to verify model adaptability.
 
-#### 10.2 Adaptability to External Shifts
+#### 2. Adaptability to External Shifts
    - **Economic & Environmental Factors**: Testing model performance under macroeconomic shifts.
    - **Outcome**: Validates model’s ability to handle real-world volatility.
 
