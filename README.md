@@ -127,25 +127,25 @@ An advanced Dynamic Fare Adjustment Engine leveraging demand, route popularity, 
 #### **7. Customer-Centric Experience Design**
 - [7.1 Key Design Principles](#71-key-design-principles)
 - [7.2 Customer-Centric Features](#72-customer-centric-features)
-  - [Fare Prediction Tool](#fare-prediction-tool)
-  - [Price Lock-In Option](#price-lock-in-option)
-  - [Fare Transparency Guide](#fare-transparency-guide)
-  - [Real-Time Fare Alerts](#real-time-fare-alerts)
-  - [Personalized Pricing Offers](#personalized-pricing-offers)
+  - Fare Prediction Tool
+  - Price Lock-In Option
+  - Fare Transparency Guide
+  - Real-Time Fare Alerts
+  - Personalized Pricing Offers
 - [7.3 Customer Journey Mapping & Touchpoints](#73-customer-journey-mapping--touchpoints)
-  - [Discovery & Education](#discovery--education)
-  - [Booking & Fare Interaction](#booking--fare-interaction)
-  - [Post-Booking & Feedback Collection](#post-booking--feedback-collection)
+  - Discovery & Education
+  - Booking & Fare Interaction
+  - Post-Booking & Feedback Collection
 - [7.4 Feedback Collection & Continuous Improvement](#74-feedback-collection--continuous-improvement)
-  - [Post-Booking Surveys](#post-booking-surveys)
-  - [Customer Sentiment Analysis](#customer-sentiment-analysis)
-  - [Focus Groups & Beta Testing](#focus-groups--beta-testing)
-  - [Quarterly Feedback Summaries](#quarterly-feedback-summaries)
+  - Post-Booking Surveys
+  - Customer Sentiment Analysis
+  - Focus Groups & Beta Testing
+  - Quarterly Feedback Summaries
 - [7.5 Communication & Education Strategy](#75-communication--education-strategy)
-  - [In-App Education](#in-app-education)
-  - [Fare Change Notifications](#fare-change-notifications)
-  - [Support Training on Fare Features](#support-training-on-fare-features)
-  - [Trust Messaging](#trust-messaging)
+  - In-App Education
+  - Fare Change Notifications
+  - Support Training on Fare Features
+  - Trust Messaging
 - [7.6 Continuous Performance Monitoring](#76-continuous-performance-monitoring)
 - [7.7 Personalization & Customization](#77-personalization--customization)
 - [7.8 Crisis Communication Plan](#78-crisis-communication-plan)
