@@ -8,7 +8,7 @@ An advanced Dynamic Fare Adjustment Engine leveraging demand, route popularity, 
 
 ---
 
-## 1. Executive Summary
+### 1. Executive Summary
 - [Overview](#overview)
 - [1.1 Business Objectives](#11-business-objectives)
 - [1.2 Target Audience](#12-target-audience)
@@ -21,11 +21,9 @@ An advanced Dynamic Fare Adjustment Engine leveraging demand, route popularity, 
 - [1.9 Customer-Centric Transparency and User Control](#19-customer-centric-transparency-and-user-control)
 - [1.10 Automated Compliance & Ethical AI Practices](#110-automated-compliance--ethical-ai-practices)
 
-## 2.Definitions & Acronyms
- - [2. Definitions & Acronyms](#2-definitions--acronyms)
+[2. Definitions & Acronyms](#2-definitions--acronyms)
 
-## 2.Definitions & Acronyms
- - [2. Definitions & Acronyms](#2-definitions--acronyms)
+[3. Assumptions and Constraints](#3-assumptions-and-constraints)
 
 ## 2.Definitions & Acronyms
  - [2. Definitions & Acronyms](#2-definitions--acronyms)
