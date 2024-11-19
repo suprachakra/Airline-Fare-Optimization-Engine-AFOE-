@@ -166,9 +166,19 @@ An advanced Dynamic Fare Adjustment Engine leveraging demand, route popularity, 
       - [Epic 7: Monitoring & Reporting Framework](#epic-7-monitoring--reporting-framework)
       - [Epic 8: Maintainability & Supportability](#epic-8-maintainability--supportability)
 
-18. [Roadmap](#roadmap)        
+      - [Key Non-Functional Requirements (NFRs)](##key-non-functional-requirements-nfrs)
+      - [Epic 1: Real-Time Data Integration](#epic-1-real-time-data-integration)
+      - [Epic 2: Demand-Based Fare Adjustment Algorithm](#epic-2-demand-based-fare-adjustment-algorithm)
+      - [Epic 3: User Transparency & Communication](#epic-3-user-transparency--communication-1)
+      - [Epic 4: Model Training & Optimization](#epic-4-model-training--optimization-1)
+      - [Epic 5: Integration & Compatibility](#epic-5-integration--compatibility)
+      - [Epic 6: Compliance & Data Privacy](#epic-6-compliance--data-privacy-1)
+      - [Epic 7: Reliability & Availability](#epic-7-reliability--availability)
+      - [Epic 8: Maintainability & Supportability](#epic-8-maintainability--supportability)
 
-19. GTM Strategy and Communications Plan
+18. [Roadmap](#18-roadmap)        
+
+19. [GTM Strategy and Communications Plan](#6-gtm-strategy-and-communications-plan)
     - [Phase-Based GTM Strategy](#phase-based-gtm-strategy)
       - [Phase 1: Awareness & Education (Pre-Launch Weeks 1-3)](#phase-1-awareness--education-pre-launch-weeks-1-3)
       - [Phase 2: Engagement & Trust-Building (Launch Weeks 4-6)](#phase-2-engagement--trust-building-launch-weeks-4-6)
@@ -2051,7 +2061,7 @@ The requirements for the **Dynamic Fare Adjustment Engine** ensure the system is
 
 ---
 
-### **Epic 5: Integration & Compatibility** (continued)
+### **Epic 5: Integration & Compatibility**
 
 #### **Objective**: Seamlessly integrate the fare adjustment engine with booking and customer support systems for real-time fare updates and easy support access.
 
