@@ -165,8 +165,7 @@ An advanced Dynamic Fare Adjustment Engine leveraging demand, route popularity, 
       - [Epic 6: Compliance & Data Privacy](#epic-6-compliance--data-privacy)
       - [Epic 7: Monitoring & Reporting Framework](#epic-7-monitoring--reporting-framework)
       - [Epic 8: Maintainability & Supportability](#epic-8-maintainability--supportability)
-
-      - [Key Non-Functional Requirements (NFRs)](##key-non-functional-requirements-nfrs)
+    - [Key Non-Functional Requirements (NFRs)](##key-non-functional-requirements-nfrs)
       - [Epic 1: Real-Time Data Integration](#epic-1-real-time-data-integration)
       - [Epic 2: Demand-Based Fare Adjustment Algorithm](#epic-2-demand-based-fare-adjustment-algorithm)
       - [Epic 3: User Transparency & Communication](#epic-3-user-transparency--communication-1)
