@@ -129,7 +129,7 @@ An advanced Dynamic Fare Adjustment Engine leveraging demand, route popularity, 
     - [Compliance & Data Privacy](#compliance--data-privacy)
     - [Monitoring & Reporting](#monitoring--reporting)
     - [Scenario-Based Examples](#scenario-based-examples)
-    - [Appendix](#1210-appendix)
+
 
 13. Dynamic Fare Adjustment Engine Non-Functional Requirements (NFRs)
     - [Performance Requirements](#performance-requirements)
@@ -140,9 +140,6 @@ An advanced Dynamic Fare Adjustment Engine leveraging demand, route popularity, 
     - [Maintainability & Supportability Requirements](#maintainability--supportability-requirements)
     - [Monitoring & Reporting Framework](#monitoring--reporting-framework)
     - [Scenario-Based Examples](#scenario-based-examples)
-    - [Appendix](#appendix)
-      - [Key Performance Indicators (KPIs)](#key-performance-indicators-kpis)
-      - [Glossary](#glossary)
 
 14. Dynamic Fare Adjustment Engine: Design System & UI Specifications
     - [Design Principles](#design-principles)
@@ -153,7 +150,7 @@ An advanced Dynamic Fare Adjustment Engine leveraging demand, route popularity, 
     - [Component Behavior & Animation](#component-behavior--animation)
     - [Success Metrics for Design Effectiveness](#success-metrics-for-design-effectiveness)
     - [Scenario-Based Testing & Fallback Solutions](#scenario-based-testing--fallback-solutions)
-    - [Appendix](#appendix)
+
 
 15. Product Backlog Management Framework
     - [Key Functional Requirements (FRs)](#key-functional-requirements-frs)
@@ -1600,20 +1597,6 @@ The Formal Sign-Off Process ensures phase-by-phase validation, approval, and acc
   3. **Unexpected Crisis (e.g., Natural Disaster)**: Compassionate pricing caps apply automatically during crisis detection, ensuring affordability and user trust while limiting price surges.
   
   ---
-  
-  ## Appendix
-  
-  ### Key Performance Indicators (KPIs)
-  - **Revenue per Seat Mile**: Measures revenue efficiency per unit distance traveled.
-  - **Data Retention Compliance**: Percentage of data stored in line with regulatory requirements.
-  - **Model Accuracy**: Percentage alignment of fare predictions to real-time data within target accuracy.
-  
-  ### Glossary
-  - **Canary Deployment**: Gradual rollout of a new model to a subset of users to validate accuracy before full deployment.
-  - **Load-Based Scaling**: Adjusting data processing based on real-time demand to manage system resources effectively.
-  - **Data Anonymization**: Removal of personally identifiable information to protect user privacy.
-  
-  ---
 
 # **13. Dynamic Fare Adjustment Engine Non-Functional Requirements (NFRs)**
 
@@ -1722,26 +1705,6 @@ These requirements guarantee a robust and adaptable system, ensuring the engine 
 
 4. **Security Breach Attempt**:
    - **Response**: Real-time intrusion detection flags suspicious access; immediate lockdown protocols and security drills limit impact and ensure fast incident response.
-
----
-
-## **Appendix**
-
-### Key Performance Indicators (KPIs)
-- **Average Response Time**: Measures system responsiveness to user requests.
-- **Uptime**: Tracks the availability and reliability of the engine, with the goal of maintaining 99.9% uptime.
-- **Compliance Adherence**: Monitors alignment with GDPR, CCPA, and other data retention policies.
-- **Failover Response Time**: Measures the time taken for failover mechanisms to activate and redirect traffic in case of primary system failure.
-- **Data Recovery Time (RTO)**: Measures the time to restore data following a loss, targeted at 4 hours or less.
-
-### **Glossary**
-
-- **RTO (Recovery Time Objective)**: The maximum duration allowed for data recovery in case of loss.
-- **RBAC (Role-Based Access Control)**: A method for restricting system access based on users' roles.
-- **IDS (Intrusion Detection System)**: A security system designed to detect and alert for unauthorized access attempts.
-- **Edge Caching**: A method of storing data closer to the user’s location to reduce latency.
-- **Predictive Scaling**: A scaling approach that anticipates future load requirements based on historical data and real-time analytics.
-- **Continuous Integration (CI)**: A development practice that integrates automated testing and version control to ensure code stability and reliability before deployment.
 
 ---
 
@@ -1865,17 +1828,6 @@ The following metrics are tracked quarterly, with a feedback loop to assess effe
 | **Network Connectivity**             | UI may not load fare data with unstable connectivity.                                                            | Add an **offline mode** showing cached fare data with a “Last Updated” timestamp and message about data freshness.|
 | **Demand Fluctuations**              | Rapid demand changes may lead to frequent updates, confusing users.                                              | Use **buffered demand levels** that update every few minutes for stability and user clarity.                 |
 | **Session Management**               | Users may lose their fare search history after session timeout.                                                  | Implement **session persistence** to retain fare search and demand level history for continuity on re-login. |
-
----
-
-## **Appendix**
-
-| **Term**                             | **Definition**                                                                                                  |
-|--------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| **WCAG 2.1 Level AA**                | Accessibility standard ensuring inclusivity for users with disabilities.                                        |
-| **ARIA Labels**                      | Tags that enhance screen reader compatibility for interactive elements.                                         |
-| **Buffered Demand Levels**           | Mechanism that smooths frequent demand changes, updating every few minutes for a stable display.                |
-| **Dynamic Text Scaling**             | Allows users to adjust text size without impacting functionality or layout.                                     |
 
 ---
 
