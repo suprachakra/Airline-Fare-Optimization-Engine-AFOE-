@@ -536,7 +536,7 @@ The **Data Privacy, Security, & Compliance Framework** for the Dynamic Fare Adju
 
 ## **Data Standards & Integrity Protocols**
 
-### ** Data Sources & Ownership**
+### Data Sources & Ownership
 Each data source has a designated **Data Owner** in the Data Science team, ensuring quality and timeliness.
 
 | **Data Source**             | **Description**                                         | **Primary Use**               | **Data Owner** |
