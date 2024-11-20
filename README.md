@@ -805,9 +805,7 @@ A live dashboard enables agile responses to user feedback and behavior:
 
 ---
 
-## **9. Technical Infrastructure & Engineering Standards**
-
----
+## 9. Technical Infrastructure & Engineering Standards
 
 ### **Overview**
 
