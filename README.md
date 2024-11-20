@@ -547,7 +547,7 @@ Each data source has a designated **Data Owner** in the Data Science team, ensur
 | **External Influencers**    | Incorporates weather, events, and economic factors for demand forecasting. | Demand forecasting             | Data Science   |
 | **Customer Feedback Data**  | Aggregates feedback and sentiment for user-centric fare adjustments. | User expectation alignment     | Product Team   |
 
-### ** Data Quality Controls**
+### Data Quality Controls
 Data quality is ensured through rigorous validation, transformation, and monitoring processes.
 
 - **Data Validation Rules:**
@@ -563,7 +563,7 @@ Data quality is ensured through rigorous validation, transformation, and monitor
 
 ---
 
-## **Data Privacy Protocols**
+## Data Privacy Protocols
 
 ### **1. User Consent & Data Minimization**
    - **Consent Management:** Explicit user consent for data collection, with options to adjust preferences.
@@ -581,7 +581,7 @@ Data quality is ensured through rigorous validation, transformation, and monitor
 
 ---
 
-## **Data Security Standards**
+## Data Security Standards
 
 ### **1. Access Control**
    - **Role-Based Access Control (RBAC) & Multi-Factor Authentication (MFA):** Enforces least-privilege access.
@@ -598,7 +598,7 @@ Data quality is ensured through rigorous validation, transformation, and monitor
 
 ---
 
-## **Compliance & Regulatory Alignment**
+## Compliance & Regulatory Alignment
 
 ### **1. Global Privacy Compliance**
 Compliance with GDPR, CCPA, PDPA, and UAE data laws ensures user privacy and regional adherence.
@@ -616,7 +616,7 @@ Compliance with GDPR, CCPA, PDPA, and UAE data laws ensures user privacy and reg
 
 ---
 
-## **Continuous Monitoring & Improvement**
+## Continuous Monitoring & Improvement
 
 ### **1. Real-Time Feedback & Anomaly Logging**
    - **Feedback Integration:** Sentiment analysis to direct product updates.
@@ -632,7 +632,7 @@ Compliance with GDPR, CCPA, PDPA, and UAE data laws ensures user privacy and reg
 
 ---
 
-## **Documentation Standards**
+## Documentation Standards
 
 | **Documentation Type**             | **Purpose**                                     | **Frequency**               |
 |------------------------------------|-------------------------------------------------|-----------------------------|
@@ -643,7 +643,7 @@ Compliance with GDPR, CCPA, PDPA, and UAE data laws ensures user privacy and reg
 
 ---
 
-## **Risk Mitigation Summary**
+## Risk Mitigation Summary
 
 ### **Cross-Functional Scenario Analysis**
 To ensure the robustness of the framework, each aspect is vetted by Product, Engineering, Data, QA, and Compliance teams.
