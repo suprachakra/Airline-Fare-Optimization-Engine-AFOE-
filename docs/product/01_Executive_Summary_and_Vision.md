@@ -1,4 +1,4 @@
-## 01_Executive_Summary_and_Vision
+## Executive Summary and Vision
 The Dynamic Fare Adjustment Engine (DFAE) is a fully automated, data-driven platform designed to optimize airline fares in real time. By leveraging advanced machine learning, real-time data ingestion, and seamless integration with critical airline systems (such as Amadeus PSS, PROS O&D, pricing tools, ancillary merchandising, and network planning systems), DFAE maximizes revenue per seat mile, enhances customer trust through transparency, and drives operational efficiency.
 
 ### Problem Statement
