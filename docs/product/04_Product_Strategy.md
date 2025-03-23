@@ -11,8 +11,8 @@ DFAE is positioned as an innovative, fully automated dynamic pricing solution ta
 ### Value Proposition
 - **For Airlines:**  
   - Achieve a 5–10% revenue uplift per seat mile.  
-  - Automate over 90% of fare adjustments, reducing manual errors and response times.  
-  - Enhance competitiveness with real-time data integration and predictive analytics.
+  - Automate over 90% of fare adjustments, reducing operational overhead and minimize human error.
+  - Integrate seamlessly with critical systems (Amadeus PSS, PROS O&D, etc.) to ensure accurate, up-to-date fare data.
 - **For Customers:**  
   - Enjoy transparent pricing with clear, real-time fare explanations.  
   - Access personalized offers and bundled ancillaries, improving travel experience.
