@@ -1,0 +1,22 @@
+## Requirements(FRs and NFRs)
+
+### Functional Requirements (FRs)
+| FR ID  | Requirement Description                                          | Acceptance Criteria                                                   | Risks & Mitigation                                         | Department Checks      | Priority  |
+|--------|------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------|------------------------|-----------|
+| FR-1   | Dynamically calculate fares based on real-time demand data.      | Achieve a <5% MAE for pricing in controlled test scenarios.            | Model drift: implement automated retraining and drift detection. | Engineering, Data       | High      |
+| FR-2   | Provide transparent fare explanations for every adjustment.      | Fare explanations are visible and reduce support inquiries by 20%.       | Inconsistent messaging: automated UI validations and A/B testing.  | CX, Design, Marketing   | High      |
+| FR-3   | Integrate with Amadeus PSS to sync inventory and fare updates.     | Data sync occurs every 5 minutes with error rate <1%.                    | API failures: implement retries and circuit breakers.       | Engineering, Ops        | High      |
+| FR-4   | Support dynamic ancillary bundling and personalized offer generation. | Generate bundles with a conversion rate ≥20% in pilot tests.              | Bundling errors: fallback to standard ancillary offerings.   | Product, Marketing, IT  | Medium    |
+| FR-5   | Assemble complete offers combining base fares and ancillary items.  | Offer assembly provides clear, personalized offers with no manual input. | Integration complexities: modular design and standardized interfaces. | Product, Engineering    | High      |
+| FR-6   | Provide APIs for real-time access to demand forecasts.             | Forecast API returns data within 200ms with 95% accuracy on test data.     | Data latency: use caching and asynchronous processing.       | Engineering, Data       | High      |
+| FR-7   | Ensure automated compliance reporting and audit logging.           | 100% of pricing events are logged with audit trails; compliance checks pass monthly. | Regulatory non-compliance: automated updates and periodic reviews. | Legal, Compliance, IT   | High      |
+
+### Non-Functional Requirements (NFRs)
+| NFR ID | Requirement Description                                          | Acceptance Criteria                                                   | Risks & Mitigation                                         | Department Checks      | Priority  |
+|--------|------------------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------|------------------------|-----------|
+| NFR-1  | System response time must be <200ms under load conditions.        | Average API response time <200ms during simulated peak loads.           | Performance degradation: implement auto-scaling and caching.  | Engineering, Ops        | High      |
+| NFR-2  | Maintain 99.9% system uptime across all services.                 | Uptime of 99.9% measured continuously over a 30-day period.              | Downtime risk: multi-zone deployments and robust failover mechanisms. | Ops, QA                 | High      |
+| NFR-3  | Data processing must comply with GDPR, CCPA, and PDPA.            | 100% compliance demonstrated via automated audits and anonymization.     | Non-compliance risk: continuous legal monitoring and updates. | Legal, Compliance, IT   | High      |
+| NFR-4  | The system must be horizontally scalable.                        | Capable of handling 500+ requests/sec without degradation.               | Scalability limits: auto-scaling, load balancing, and performance tests. | Engineering, Ops        | High      |
+| NFR-5  | Security: All data must be encrypted at rest and in transit.       | Use AES-256 for data at rest and TLS 1.2+ for data in transit.             | Data breach risk: periodic vulnerability scans and monitoring.  | IT, Security            | High      |
+| NFR-6  | The system shall provide comprehensive logging and observability.  | All services expose /metrics endpoints; logs are centralized and searchable. | Inadequate logging: integrate with Prometheus, Grafana, and Fluentd. | Ops, QA, Engineering    | High      |
