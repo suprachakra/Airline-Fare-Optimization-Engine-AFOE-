@@ -24,6 +24,7 @@ The Dynamic Fare Adjustment Engine (DFAE) is built on a cloud-native, microservi
 - **CI/CD Pipeline:** Automated builds, tests, security scans, and deployments using GitHub Actions (or similar tools).
 
 ### System Architecture Diagram
+
 ```mermaid
 graph TD
     %% External Users
