@@ -33,3 +33,29 @@ Extensive qualitative and quantitative research (surveys, interviews, focus grou
   - **Market Expansion:** Potential to extend into loyalty-driven pricing and dynamic corporate travel deals.
 
 *Note:* These insights and personas drive our product design and operational priorities, ensuring that every stakeholder’s unique needs are met in a data-informed, fully automated manner.
+
+### User Journey Flowchart
+```mermaid
+flowchart TD
+    A[User Visits Airline Website/App] --> B[Search for Flights]
+    B --> C[View Dynamic Fare Display]
+    C --> D[Receive Transparent Fare Explanation]
+    D --> E[Explore Ancillary Bundles & Personalized Offers]
+    E --> F[Select Flight & Ancillary Options]
+    F --> G[Booking Confirmation]
+    G --> H[Post-Booking Notifications & Support]
+    
+    %% Decision Points
+    C -- "If fare changes unexpectedly" --> I[Prompt Explanation Modal]
+    I --> D
+    E -- "If unsatisfied with offer" --> J[Contact Customer Service]
+    J --> H
+
+    %% Annotations for clarity
+    click A "https://www.example.com" "User Entry Point"
+    click H "https://www.example.com/support" "Post-booking support"
+    
+    %% Styling
+    style A fill:#ccf,stroke:#333,stroke-width:1px
+    style H fill:#cfc,stroke:#333,stroke-width:1px
+```
