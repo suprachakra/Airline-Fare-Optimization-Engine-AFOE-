@@ -62,3 +62,33 @@ graph TD
     style B fill:#f9f,stroke:#333,stroke-width:2px
     style P fill:#ccf,stroke:#333,stroke-width:2px
 ```
+### Data Flow Diagram
+```mermaid
+flowchart TD
+    %% External Data Sources
+    A[Amadeus PSS] -->|Booking/Inventory Data| B[ETL Process]
+    C[PROS O&D] -->|Demand Data| B
+    D[Pricing Tools] -->|Competitive Pricing Data| B
+    E[Network Planning] -->|Codeshare/Schedule Data| B
+
+    %% Data Transformation and Storage
+    B --> F[Data Lake/Warehouse]
+    F --> G[Real-Time Data Pipeline]
+
+    %% Consumption by Core Services
+    G --> H[Dynamic Pricing Engine]
+    G --> I[Forecasting Service]
+    G --> J[Ancillary Bundling Engine]
+    G --> K[Offer Assembler]
+
+    %% Monitoring and Feedback Loop
+    H --> L[Monitoring & Analytics]
+    I --> L
+    J --> L
+    K --> L
+    L -->|Feedback Loop| H
+
+    %% Legend
+    style A fill:#f96,stroke:#333,stroke-width:1px
+    style F fill:#bbf,stroke:#333,stroke-width:1px
+```
