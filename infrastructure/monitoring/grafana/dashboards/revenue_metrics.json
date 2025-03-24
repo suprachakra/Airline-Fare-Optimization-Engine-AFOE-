@@ -1,0 +1,37 @@
+{
+  "dashboard": {
+    "id": null,
+    "uid": "revenue-metrics",
+    "title": "Revenue and Pricing Metrics",
+    "timezone": "browser",
+    "schemaVersion": 16,
+    "version": 0,
+    "panels": [
+      {
+        "type": "graph",
+        "title": "Revenue per Seat Mile",
+        "targets": [
+          {
+            "expr": "pricing.fare.calc.time",
+            "legendFormat": "Revenue Yield",
+            "refId": "A"
+          }
+        ],
+        "datasource": "Prometheus"
+      },
+      {
+        "type": "graph",
+        "title": "Load Factor and Forecast Accuracy",
+        "targets": [
+          {
+            "expr": "forecast.accuracy",
+            "legendFormat": "Forecast Accuracy",
+            "refId": "B"
+          }
+        ],
+        "datasource": "Prometheus"
+      }
+    ]
+  },
+  "overwrite": false
+}
