@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dfae-config
+  namespace: prod
+data:
+  # Global configuration values used by multiple services
+  DYNAMIC_PRICE_MAX_INCREASE: "0.20"
+  DYNAMIC_PRICE_MAX_DECREASE: "0.30"
+  FORECAST_UPDATE_INTERVAL: "300"
+  LOG_LEVEL: "INFO"
+  ENVIRONMENT: "prod"
