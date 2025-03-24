@@ -1,0 +1,21 @@
+# config.yaml
+# Configuration for Ancillary & Merchandising Service
+
+ancillary_rules:
+  family_bundle:
+    items: ["Extra Baggage", "In-flight Meal"]
+    discount: 0.15
+  business_bundle:
+    items: ["Preferred Seat", "In-flight Meal"]
+    discount: 0.10
+  standard_bundle:
+    items: ["Extra Baggage"]
+    discount: 0.05
+
+# API configuration
+api:
+  port: 5001
+  base_path: "/api/ancillary"
+
+logging:
+  level: "INFO"
