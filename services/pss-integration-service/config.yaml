@@ -1,0 +1,12 @@
+# config.yaml
+# Configuration for Amadeus PSS Integration Service
+
+API_ENDPOINT: "https://api.amadeuspss.com"
+API_KEY: "YOUR_PSS_API_KEY_HERE"
+TIMEOUT: 5000  # in milliseconds
+SYNC_INTERVAL: 300  # Inventory sync interval in seconds
+
+# Retry policy settings
+retries:
+  max_attempts: 3
+  backoff_factor: 1
