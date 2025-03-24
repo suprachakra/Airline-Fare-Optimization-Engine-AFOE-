@@ -1,0 +1,25 @@
+/* Dashboard.module.css */
+/* Scoped styles for the Dashboard component */
+
+.pricing-dashboard {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.pricing-dashboard table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pricing-dashboard th, 
+.pricing-dashboard td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.pricing-dashboard th {
+  background-color: #f2f2f2;
+}
