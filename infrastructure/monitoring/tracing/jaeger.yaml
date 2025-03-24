@@ -1,0 +1,37 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: jaeger-config
+  namespace: prod
+data:
+  jaeger-config.yaml: |
+    collector:
+      zipkin:
+        http-port: 9411
+    agent:
+      enabled: true
+    query:
+      base-path: /jaeger
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jaeger
+  namespace: prod
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jaeger
+  template:
+    metadata:
+      labels:
+        app: jaeger
+    spec:
+      containers:
+      - name: jaeger
+        image: jaegertracing/all-in-one:1.35
+        ports:
+        - containerPort: 16686  # Query UI
+        - containerPort: 14268  # Collector
+        - containerPort: 9411   # Zipkin API
