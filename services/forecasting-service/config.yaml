@@ -1,0 +1,16 @@
+# config.yaml
+# Forecasting Service configuration file
+
+model:
+  forecast_horizon_days: 7
+  training_interval_minutes: 1440  # Once per day
+  algorithm: "linear_regression"  # Could be updated to more advanced algorithms in production
+
+external:
+  pros_api_url: "http://pros-integration-service:5000"
+  historical_data_path: "/data/historical_bookings.csv"
+
+logging:
+  level: "INFO"
+
+# Other configurations as needed for model training and API endpoints
