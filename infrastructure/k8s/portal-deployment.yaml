@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: portal
+  namespace: prod
+  labels:
+    app: portal
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: portal
+  template:
+    metadata:
+      labels:
+        app: portal
+    spec:
+      containers:
+        - name: portal
+          image: myregistry/airline-fare-optimization:portal-latest
+          ports:
+            - containerPort: 80
+          env:
+            - name: CONFIG_ENV
+              value: "prod"
+          resources:
+            limits:
+              cpu: "300m"
+              memory: "256Mi"
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
