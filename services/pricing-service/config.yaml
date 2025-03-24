@@ -1,0 +1,20 @@
+# config.yaml
+# Service configuration for Dynamic Pricing Service
+
+# Toggle for algorithm features
+algorithm:
+  use_ml_model: true
+  price_floor: 80.0
+  price_ceiling: 500.0
+
+# External service endpoints (could be overridden via environment variables)
+external_services:
+  forecasting_url: "http://forecasting-service:5000"
+  competitor_pricing_url: "http://pricing-tools:5000"
+
+# Logging level
+logging:
+  level: "INFO"
+
+# Other parameters
+default_currency: "USD"
