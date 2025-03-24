@@ -1,0 +1,8 @@
+# config.yaml
+# Configuration for PROS O&D Integration Service
+
+API_ENDPOINT: "https://api.prosod.com"
+API_KEY: "YOUR_PROS_API_KEY_HERE"
+TIMEOUT: 5000  # in milliseconds
+
+# Additional configuration can be added as needed
