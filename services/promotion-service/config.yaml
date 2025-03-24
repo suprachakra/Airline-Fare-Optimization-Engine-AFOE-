@@ -1,0 +1,15 @@
+# config.yaml
+# Configuration for Promotion & Campaign Service
+
+promotion:
+  max_discount: 0.20  # Maximum discount allowed (20%)
+  flash_sale_enabled: true
+
+api:
+  port: 5002
+  base_path: "/api/promotion"
+
+logging:
+  level: "INFO"
+
+# Additional promotional parameters can be added as needed.
