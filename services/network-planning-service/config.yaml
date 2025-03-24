@@ -1,0 +1,13 @@
+# config.yaml
+# Configuration for Network Planning & Codeshare Service
+
+schedule:
+  data_source: "https://api.networkplanning.com/schedules"
+  sync_interval: 3600  # in seconds
+
+partner:
+  data_source: "https://api.networkpartners.com/data"
+  api_key: "YOUR_PARTNER_API_KEY_HERE"
+
+logging:
+  level: "INFO"
