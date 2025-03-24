@@ -1,0 +1,85 @@
+openapi: 3.0.0
+info:
+  title: Airline Fare Optimization API
+  version: 1.0.0
+  description: >
+    API specification for the Airline Fare Optimization Engine. This document defines endpoints for dynamic pricing, demand forecasting, offer management, and ancillary services.
+servers:
+  - url: https://api.airlinefareoptimization.com
+paths:
+  /pricing/fares:
+    get:
+      summary: Retrieve dynamic fare quotes
+      responses:
+        '200':
+          description: A list of dynamic fare quotes.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Fare'
+  /forecast:
+    get:
+      summary: Retrieve demand forecast
+      parameters:
+        - name: route
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: date
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Forecast data.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Forecast'
+  /offer:
+    get:
+      summary: Retrieve a personalized offer
+      parameters:
+        - name: flight_id
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Offer details.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Offer'
+components:
+  schemas:
+    Fare:
+      type: object
+      properties:
+        flight:
+          type: string
+        fare:
+          type: number
+        currency:
+          type: string
+    Forecast:
+      type: object
+      properties:
+        predicted_demand:
+          type: number
+        timestamps:
+          type: array
+          items:
+            type: string
+    Offer:
+      type: object
+      properties:
+        base_fare:
+          type: number
+        ancillary_bundle:
+          type: object
+        final_offer:
+          type: number
