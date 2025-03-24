@@ -1,0 +1,16 @@
+# config.yaml
+# Configuration for the Offer Management Service
+
+personalization:
+  loyalty_discount: 0.05  # 5% extra discount for high-tier loyalty members
+  default_offer_flag: true
+  ab_test_toggle: false
+
+api:
+  port: 5002
+  base_path: "/api/offer"
+
+logging:
+  level: "INFO"
+
+# Additional configuration for offer generation and personalization
