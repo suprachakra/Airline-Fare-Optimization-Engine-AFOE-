@@ -1,0 +1,30 @@
+{
+  "name": "dynamic-fare-adjustment-Engine-web-portal",
+  "version": "1.0.0",
+  "description": "Internal web portal for airline fare optimization analytics and pricing controls.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production",
+    "test": "echo \"No tests defined\" && exit 0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "chart.js": "^3.7.1",
+    "react-chartjs-2": "^4.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0",
+    "babel-loader": "^8.2.5",
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/preset-react": "^7.18.6"
+  },
+  "author": "Supra",
+  "license": "MIT"
+}
