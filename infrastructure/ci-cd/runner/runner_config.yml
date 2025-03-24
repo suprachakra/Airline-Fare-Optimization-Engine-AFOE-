@@ -1,0 +1,15 @@
+# runner_config.yml
+# Configuration for self-hosted CI/CD runners (e.g., GitHub self-hosted runner)
+
+runner:
+  name: "dfae-runner"
+  labels: ["linux", "docker", "k8s"]
+  capacity: 4
+  executor: "docker"
+  docker:
+    image: "ubuntu:20.04"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+  environment:
+    - "CONFIG_ENV=prod"
+    - "DOCKER_REGISTRY=myregistry"
