@@ -1,0 +1,31 @@
+{
+  "name": "dynamic-fare-adjustment-engine-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "echo \"No tests defined\" && exit 0"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "react": "18.2.0",
+    "react-native": "0.71.0",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^2.10.4",
+    "@react-native-firebase/app": "^16.0.0",
+    "@react-native-firebase/messaging": "^16.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/runtime": "^7.18.9",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "metro-react-native-babel-preset": "^0.72.3",
+    "react-test-renderer": "18.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
