@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PriceUpdateEvent",
+  "type": "object",
+  "properties": {
+    "flight": {
+      "type": "string"
+    },
+    "old_fare": {
+      "type": "number"
+    },
+    "new_fare": {
+      "type": "number"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source": {
+      "type": "string"
+    }
+  },
+  "required": ["flight", "old_fare", "new_fare", "timestamp", "source"]
+}
