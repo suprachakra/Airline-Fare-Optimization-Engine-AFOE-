@@ -1,0 +1,33 @@
+name: Continuous Integration
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ develop ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        service: ["pricing-service", "forecasting-service", "ancillary-service", "offer-service", "pss-integration-service", "pros-integration-service"]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      
+      - name: Install dependencies
+        run: |
+          cd services/${{ matrix.service }}
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Tests for ${{ matrix.service }}
+        run: |
+          cd services/${{ matrix.service }}
+          pytest --maxfail=1 --disable-warnings -q
