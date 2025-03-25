@@ -15,8 +15,9 @@ through intelligent bundling and dynamic offer management.
 - **Operational Efficiency:** Automate pricing adjustments and inventory management to reduce manual interventions by over 90%, ensuring rapid responses to market changes.
 - **Customer-Centricity:** Enhance passenger trust with transparent fare explanations and personalized offers tailored to individual travel profiles.
 - **Scalability & Resilience:** Ensure high availability and regulatory compliance through a microservices‑based, cloud‑native deployment with robust CI/CD pipelines and comprehensive monitoring.
-- **Ancillary & Bundling Optimization:** Drive additional revenue with intelligent bundling of ancillary services and dynamic promotional campaigns.
+- **Ancillary & Bundling Optimization:** Drive additional revenue with intelligent bundling of ancillary services and dynamic promotional campaigns.'
 
+> Refer to [Roadmap](https://github.com/suprachakra/Airline-Fare-Optimization-Engine-AFOE-/blob/main/docs/product/07_Roadmap_and_Milestones.md)
 ---
 
 ### Architecture Summary
