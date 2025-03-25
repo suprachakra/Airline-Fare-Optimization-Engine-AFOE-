@@ -1,0 +1,41 @@
+version: '3.8'
+services:
+  pricing-service:
+    image: myregistry.example.com/dynamic-fare-adjustment-engine:pricing-service-latest
+    ports:
+      - "5000:5000"
+    environment:
+      - CONFIG_ENV=dev
+
+  forecasting-service:
+    image: myregistry.example.com/dynamic-fare-adjustment-engine:forecasting-service-latest
+    ports:
+      - "5000:5000"
+    environment:
+      - CONFIG_ENV=dev
+
+  ancillary-service:
+    image: myregistry.example.com/dynamic-fare-adjustment-engine:ancillary-service-latest
+    ports:
+      - "5001:5001"
+    environment:
+      - CONFIG_ENV=dev
+
+  offer-service:
+    image: myregistry.example.com/dynamic-fare-adjustment-engine:offer-service-latest
+    ports:
+      - "5002:5002"
+    environment:
+      - CONFIG_ENV=dev
+
+  pss-integration-service:
+    image: myregistry.example.com/dynamic-fare-adjustment-engine:pss-integration-service-latest
+    environment:
+      - CONFIG_ENV=dev
+
+  pros-integration-service:
+    image: myregistry.example.comdynamic-fare-adjustment-engine:pros-integration-service-latest
+    environment:
+      - CONFIG_ENV=dev
+
+  # Add other services as needed
