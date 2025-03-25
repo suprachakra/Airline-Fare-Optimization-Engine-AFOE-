@@ -1,7 +1,11 @@
 ## Airline Fare Optimization Engine (AFOE)
 The **Airline Fare Optimization Engine (AFOE)** is an advanced, fully automated solution designed to revolutionize airline revenue management and customer experience. Leveraging real‑time data, machine learning, and robust integrations with industry‑standard systems, AFOE dynamically adjusts fares to maximize revenue yield while ensuring transparent, fair pricing for passengers.
 
-AFOE is built on a microservices architecture deployed on a cloud‑native platform. It seamlessly integrates with external systems—such as Amadeus PSS, PROS O&D, pricing tools, and network planning—and supports ancillary revenue streams through intelligent bundling and dynamic offer management.
+AFOE is built on a microservices architecture deployed on a cloud‑native platform. It seamlessly integrates with external systems—such as 
+```
+** Amadeus PSS, PROS O&D, pricing tools, and network planning—and supports ancillary revenue streams **
+```
+through intelligent bundling and dynamic offer management.
 
 ---
 
