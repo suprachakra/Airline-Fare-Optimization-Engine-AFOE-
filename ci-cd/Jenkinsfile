@@ -1,0 +1,63 @@
+// Jenkinsfile - Jenkins pipeline for building, testing, and deploying all services in parallel
+
+pipeline {
+    agent any
+    environment {
+        REGISTRY = "myregistry.example.com"
+        IMAGE_TAG = "latest"
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+        stage('Build & Test') {
+            parallel {
+                stage('Pricing Service') {
+                    steps {
+                        dir('services/pricing-service') {
+                            sh 'docker build -t $REGISTRY/dynamic-fare-adjustment-engine:pricing-service-$IMAGE_TAG .'
+                            sh 'pytest --maxfail=1 --disable-warnings -q'
+                        }
+                    }
+                }
+                stage('Forecasting Service') {
+                    steps {
+                        dir('services/forecasting-service') {
+                            sh 'docker build -t $REGISTRY/dynamic-fare-adjustment-engine:forecasting-service-$IMAGE_TAG .'
+                            sh 'pytest --maxfail=1 --disable-warnings -q'
+                        }
+                    }
+                }
+                stage('Ancillary Service') {
+                    steps {
+                        dir('services/ancillary-service') {
+                            sh 'docker build -t $REGISTRY/dynamic-fare-adjustment-engine:ancillary-service-$IMAGE_TAG .'
+                            sh 'pytest --maxfail=1 --disable-warnings -q'
+                        }
+                    }
+                }
+                stage('Offer Service') {
+                    steps {
+                        dir('services/offer-service') {
+                            sh 'docker build -t $REGISTRY/dynamic-fare-adjustment-engine:offer-service-$IMAGE_TAG .'
+                            sh 'pytest --maxfail=1 --disable-warnings -q'
+                        }
+                    }
+                }
+                // Add additional service stages as needed.
+            }
+        }
+        stage('Deploy') {
+            steps {
+                sh './ci-cd/k8s-deploy.sh'
+            }
+        }
+    }
+    post {
+        always {
+            archiveArtifacts artifacts: '**/test-reports/**/*'
+        }
+    }
+}
