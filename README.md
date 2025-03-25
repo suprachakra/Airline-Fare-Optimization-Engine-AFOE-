@@ -177,4 +177,5 @@ For comprehensive documentation on architecture, product strategy, design, integ
 - **QA:** Test strategies, test plans, and results templates.
 
 **Airline Fare Optimization Engine** is designed to set a new standard in airline revenue management by delivering a robust, scalable, and fully automated solution that meets the highest industry standards.
+
 ---
