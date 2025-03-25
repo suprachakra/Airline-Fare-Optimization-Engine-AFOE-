@@ -1,0 +1,17 @@
+# audit_policy.yaml
+# Definition of audit policy for the Airline Fare Optimization Engine
+
+audit_policy:
+  actions:
+    - name: "fare_update"
+      description: "Audit every fare update made by the system."
+    - name: "user_login"
+      description: "Audit all successful and failed user login attempts."
+    - name: "configuration_change"
+      description: "Audit changes to system configuration and feature toggles."
+  retention_period_days: 180  # Retain audit logs for 180 days
+  storage:
+    type: "secure_storage"
+    encryption: true
+  access:
+    roles_allowed: ["admin", "compliance"]
