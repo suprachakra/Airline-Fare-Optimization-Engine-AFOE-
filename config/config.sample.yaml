@@ -1,0 +1,34 @@
+# config.sample.yaml
+# Sample composite configuration for the Airline Fare Optimization Engine
+
+# Global settings
+environment: "prod"
+log_level: "INFO"
+
+# Service endpoints
+services:
+  pricing:
+    url: "http://pricing-service.prod.svc.cluster.local:5000"
+  forecasting:
+    url: "http://forecasting-service.prod.svc.cluster.local:5000"
+  ancillary:
+    url: "http://ancillary-service.prod.svc.cluster.local:5001"
+  offer:
+    url: "http://offer-service.prod.svc.cluster.local:5002"
+  pss_integration:
+    url: "http://pss-integration-service.prod.svc.cluster.local"
+  pros_integration:
+    url: "http://pros-integration-service.prod.svc.cluster.local"
+
+# Authentication
+auth:
+  jwt_secret: "YOUR_SECRET_KEY"
+  token_expiry_seconds: 3600
+
+# Database configuration (example)
+database:
+  host: "db.prod.internal"
+  port: 5432
+  username: "dbuser"
+  password: "dbpassword"
+  name: "dfae_db"
