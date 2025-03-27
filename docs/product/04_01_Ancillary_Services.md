@@ -1,4 +1,4 @@
-# Master Ancillary Services Table
+## Ancillary Services
 
 | **Service Category**       | **Ancillary Service**          | **Description**                                                                                     | **Revenue Impact**           | **Data Sources/Validation**                                        | **Implementation Considerations**                                  |
 |----------------------------|--------------------------------|-----------------------------------------------------------------------------------------------------|------------------------------|---------------------------------------------------------------------|-------------------------------------------------------------------|
@@ -25,7 +25,7 @@
 
 ---
 
-## How This Table Helps
+### How This Table Helps
 
 - **Comprehensive Coverage:**  
   Each row outlines a distinct ancillary service, grouped by category, ensuring all revenue opportunities are identified.
