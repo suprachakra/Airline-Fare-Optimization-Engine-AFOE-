@@ -1,5 +1,5 @@
 ## Ancillary & Merchandising Service
-The Ancillary & Merchandising Service manages ancillary products (e.g., extra baggage, seat selection, in-flight meals) and dynamically generates bundle offers to increase non-ticket revenue. It applies business rules to combine ancillary products with base fares into attractive bundles for various traveler segments (e.g., family bundles, business traveler bundles).
+The Ancillary & Merchandising Service manages ancillary products (e.g., extra baggage, seat selection, in-flight meals) and dynamically generates bundle offers to increase non-ticket revenue. It applies business rules to combine ancillary products with base fares into attractive bundles for various traveler segments (e.g., family bundles, business traveler bundles). For the complete business strategy—including market research, strategic objectives, and key performance indicators—please refer to [Ancillary_Services_PRD.md](../../docs/product/Ancillary_Services_PRD.md).
 
 ### Responsibilities
 - **BundlingEngine:** Creates dynamic bundles based on passenger profiles, flight data, and current promotions.
@@ -14,3 +14,5 @@ The Ancillary & Merchandising Service manages ancillary products (e.g., extra ba
 - Configure via `config.yaml`.
 - Use the provided `Dockerfile` to build and deploy the service.
 - For local development, refer to `.env.example` for environment variables.
+
+
