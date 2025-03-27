@@ -1,7 +1,16 @@
 """
 AncillaryItem.py
-Defines the data model for an ancillary product.
-Represents an item with attributes like name, type, base price, and cost.
+
+Represents an ancillary product offered to passengers.
+
+Attributes:
+    name (str): The name of the ancillary service (e.g., Extra Baggage).
+    type (str): The category of the service (e.g., baggage, seating, in-flight meal).
+    base_price (float): The standard price before any dynamic adjustments.
+    cost (float): The underlying cost to the airline for providing this service.
+
+Business Note:
+    The configuration for these items (e.g., discount thresholds, bundling rules) is defined in the Ancillary Services PRD.
 """
 
 class AncillaryItem:
